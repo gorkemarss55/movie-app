@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ body{
+    background-color: rgb(15, 10, 82);
+    font-family: "Poppions";
+ }
+ .header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+ }
+ #search{
+margin-top: 50px;
+padding: 5px;
+border-radius: 50px;
+outline: none;
+background-color: lightgrey;
+ }
+.movies{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    
+}
+.movie{
+    margin:25px 15px;
+    width: 250px;
+    height: 450px;
+    background-color: rgb(18, 23, 148);
+}
+.moviePicture{
+    width: 250px;
+    height: 380px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.movieName{
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 17px;
+    color: lightgrey;
+    flex-direction: row;
+    justify-content: center;
+}
+.imdbPoint{
+    font-size: 20px;
+    color: lightgrey;
+}
